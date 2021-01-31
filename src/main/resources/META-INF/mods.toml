@@ -1,37 +1,31 @@
 
-modLoader="javafml" #mandatory
-loaderVersion="[35,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+modLoader="javafml"
+loaderVersion="[35,)"
 license="All rights reserved"
-issueTrackerURL="http://my.issue.tracker/" #optional
-[[mods]] #mandatory
-modId="gamefeelmod" #mandatory
-version="${file.jarVersion}" #mandatory
-displayName="Game Feel Mod" #mandatory
-updateJSONURL="http://myurl.me/" #optional
-displayURL="http://example.com/" #optional
-logoFile="gamefeelmod.png" #optional
-credits="Thanks for this mod goes to Zoey the Egoist" #optional
-authors="AvocadoSpud, Sarinsa" #optional
-description='''
-Improving Minecraft's Game Feel
-'''
-# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.gamefeelmod]] #optional
-    # the modid of the dependency
-    modId="forge" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=true #mandatory
-    # The version range of the dependency
-    versionRange="[35,)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+issueTrackerURL="http://my.issue.tracker/"
+
+[[mods]]
+modId="gamefeelmod"
+version="${file.jarVersion}"
+displayName="Game Feel Mod"
+updateJSONURL="http://myurl.me/"
+displayURL="http://example.com/"
+logoFile="gamefeelmod.png"
+credits="Thanks for this mod goes to Zoey the Egoist"
+authors="AvocadoSpud, Sarinsa"
+description="Improving Minecraft's Game Feel"
+license="MIT"
+
+[[dependencies.gamefeelmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
     ordering="NONE"
-    # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
-# Here's another dependency
+
 [[dependencies.gamefeelmod]]
     modId="minecraft"
     mandatory=true
-# This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="[1.16.4,1.17)"
     ordering="NONE"
     side="BOTH"
