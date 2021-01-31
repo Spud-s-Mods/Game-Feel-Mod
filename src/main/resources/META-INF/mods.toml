@@ -11,7 +11,7 @@ updateJSONURL="http://myurl.me/" #optional
 displayURL="http://example.com/" #optional
 logoFile="gamefeelmod.png" #optional
 credits="Thanks for this mod goes to Zoey the Egoist" #optional
-authors="AvocadoSpud, Sarinsa" #optional
+authors="AvocadoSpud, Sarinsa, Eltrutlikes" #optional
 description='''
 Improving Minecraft's Game Feel
 '''
