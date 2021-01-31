@@ -19,7 +19,6 @@ public class GameFeelMod {
 
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-
     }
 
     public static GameFeelMod getInstance() {
