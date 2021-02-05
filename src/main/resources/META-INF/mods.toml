@@ -5,25 +5,25 @@ license="All rights reserved"
 issueTrackerURL="http://my.issue.tracker/"
 
 [[mods]]
-modId="gamefeelmod"
+modId="sensation"
 version="${file.jarVersion}"
 displayName="Game Feel Mod"
 updateJSONURL="http://myurl.me/"
 displayURL="http://example.com/"
-logoFile="gamefeelmod.png"
+logoFile="sensation.png"
 credits="Thanks for this mod goes to Zoey the Egoist"
 authors="AvocadoSpud, Sarinsa, Eltrutlikes"
 description="Improving Minecraft's Game Feel"
 license="MIT"
 
-[[dependencies.gamefeelmod]]
+[[dependencies.sensation]]
     modId="forge"
     mandatory=true
     versionRange="[35,)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.gamefeelmod]]
+[[dependencies.sensation]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.4,1.17)"

@@ -1,4 +1,4 @@
-package com.avocadospud.gamefeelmod.common.event;
+package com.avocadospud.sensation.common.event;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.SoundCategory;
